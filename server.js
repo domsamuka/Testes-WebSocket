@@ -22,52 +22,52 @@ game.scalePix = vScalePix;
 let maxConcurrentConnections = 15 ;
 
 app.get('/', function (req, res){
-	res.sendFile(__dirname + '/game.html');
+	res.sendFile(__dirname + '/assets/script/html/game.html');
 })
 
 // a31ecc0596d72f84e5ee403ddcacb3d
 app.get('/admin', function (req, res){
-	res.sendFile(__dirname + '/game-admin.html');
+	res.sendFile(__dirname + '/assets/script/html/game-admin.html');
 })
 
 app.get('/style.css', function (req, res){
-	res.sendFile(__dirname + '/style.css');
+	res.sendFile(__dirname + '/assets/script/css/style.css');
 })
 
 app.get('/gramado.jpg', function (req, res){
-	res.sendFile(__dirname + '/gramado.jpg');
+	res.sendFile(__dirname + '/assets/img/gramado.jpg');
 })
 
 app.get('/paper.jpg', function (req, res){
-	res.sendFile(__dirname + '/paper.jpg');
+	res.sendFile(__dirname + '/assets/img/paper.jpg');
 })
 
 app.get('/fantasma.png', function (req, res){
-	res.sendFile(__dirname + '/fantasma.png');
+	res.sendFile(__dirname + '/assets/img/fantasma.png');
 })
 
 app.get('/pacman.png', function (req, res){
-	res.sendFile(__dirname + '/pacman.png');
+	res.sendFile(__dirname + '/assets/img/pacman.png');
 })
 
 app.get('/emoji.png', function (req, res){
-	res.sendFile(__dirname + '/emoji.png');
+	res.sendFile(__dirname + '/assets/img/emoji.png');
 })
 
 app.get('/cereja.png', function (req, res){
-	res.sendFile(__dirname + '/cereja.png');
+	res.sendFile(__dirname + '/assets/img/cereja.png');
 })
 
 app.get('/bg.png', function (req, res){
-	res.sendFile(__dirname + '/bg.png');
+	res.sendFile(__dirname + '/assets/img/bg.png');
 })
 
 app.get('/collect.mp3', function (req, res){
-	res.sendFile(__dirname + '/collect.mp3');
+	res.sendFile(__dirname + '/assets/sound/collect.mp3');
 })
 
 app.get('/100-collect.mp3', function (req, res){
-	res.sendFile(__dirname + '/100-collect.mp3');
+	res.sendFile(__dirname + '/assets/sound/100-collect.mp3');
 })
 
 setInterval(() => {
