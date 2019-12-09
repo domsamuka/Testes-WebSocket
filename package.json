@@ -1,26 +1,26 @@
 {
-  "name": "Desafio333-Nov_2019-WebSocket-Game_Multiplayer",
+  "name": "Testes-WebSocket",
   "version": "1.0.0",
-  "description": "Um jogo multiplayer bastante simples para testar o Socket.io",
+  "description": "Testes-WebSocket",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: Testes-WebSocket => \" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/domsamuka/Desafio333-Nov_2019-WebSocket-Game_Multiplayer.git"
+    "url": "git+https://github.com/domsamuka/Testes-WebSocket.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/domsamuka/Desafio333-Nov_2019-WebSocket-Game_Multiplayer/issues"
+    "url": "https://github.com/domsamuka/Testes-WebSocket/issues"
   },
-  "homepage": "https://github.com/domsamuka/Desafio333-Nov_2019-WebSocket-Game_Multiplayer#readme",
+  "homepage": "https://github.com/domsamuka/Testes-WebSocket#readme",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^1.19.1",
     "socket.io": "^2.3.0"
   },
-  "main": "ok.js",
   "keywords": []
 }
