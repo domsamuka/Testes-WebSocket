@@ -62,7 +62,7 @@ npm install socket.io --save
 
 Comandos para Inicialização:
 ```
-node server.js
+node index.js
 ```
 6. Acesso no seu navegador o seu o `LocalHost` usando a `Porta 3333`, assim => `http://localhost:3333/` para usar o modo cliente, ou assim => `http://localhost:3333/admin` para o modo administrador do servidor.
 

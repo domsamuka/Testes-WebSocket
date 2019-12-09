@@ -1,10 +1,27 @@
 
-	express.get( '/' , function( req , res )
+	// const vInclude = require( './include./.js' )() ;
+
+	// const vInclude = import ( "./include.js" ) ;
+	
+/*
+	vExpress.get( '/' , function( pReq , pRes )
 	{
-	 	res.send( "<h1>"+' -- Index -- '+"<h1>" );
+	 	pRes.send( ' -- Index -- ' );
 	});
 
-	express.listen( vPORT , function( req , res ) 
+	vExpress.listen( vPORT , function( pReq , pRes ) 
 	{
-		console.log( "\n"+' # Porta: '+ vPORT +"\n" );
+		console.log( "\n" + ' # Porta: '+ vPORT +"\n" );
 	});
+*/
+
+	// console.log( "\n" + ' # Testes: '+ pessoa.nome +"\n" );
+
+
+
+
+
+
+
+
+

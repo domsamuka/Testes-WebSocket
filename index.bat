@@ -8,13 +8,13 @@ CLS
 
 REM ==================================================================== 
 
-REM nodemon server.js
-REM node server.js
+REM nodemon index.js
+REM node index.js
 REM npm start
 
 REM ==================================================================== 
 
-nodemon server.js
+nodemon index.js
 
 REM ==================================================================== 
 ECHO.
