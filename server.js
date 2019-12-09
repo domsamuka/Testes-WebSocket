@@ -10,6 +10,19 @@ const vDirJs     = vDirScript + 'js/'     ;
 const vDirCss    = vDirScript + 'css/'    ;
 const vDirHtml   = vDirScript + 'html/'   ;
 
+const app  = require( 'express' )() ;
+const http = require( 'http' ).Server( app ) ;
+const io   = require( 'socket.io' )( http ) ;
+
+
+
+// const vSendFile = require( vDirJs + 'include.js' ).Server( app ) ;
+
+
+
+
+const game = createGame() ;
+
 const vAddPontos = 1 ;
 
 const vScalePix    =  50 ;
@@ -18,12 +31,6 @@ const vFrameCanvas = 500 ;
 var vCirclePix = ( vScalePix / 2 ) ;
 
 let maxConcurrentConnections = 15 ;
-
-const app  = require( 'express' )() ;
-const http = require( 'http' ).Server( app ) ;
-const io   = require( 'socket.io' )( http ) ;
-
-const game = createGame() ;
 
 game.canvasWidth  = vFrameCanvas ;
 game.canvasHeight = vFrameCanvas ;
