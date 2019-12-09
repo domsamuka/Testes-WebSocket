@@ -1,3 +1,8 @@
-node_modules/
-@/
-$/
+.htaccess
+.htpasswd
+.ftpquota
+*.ini
+.git
+./node_modules/
+./@/
+./$/
