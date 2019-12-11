@@ -2,9 +2,10 @@
   "name": "Testes-WebSocket",
   "version": "1.0.0",
   "description": "Testes-WebSocket",
-  "main": "index.js",
+  "main": "index.cjs",
+  "type":"module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.cjs",
     "test": "echo \"Error: Testes-WebSocket => \" && exit 1"
   },
   "repository": {
