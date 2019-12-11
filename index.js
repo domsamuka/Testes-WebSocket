@@ -1,18 +1,8 @@
 
-	// const vPORT = process.env.PORT || 3333 ;
+	// const vPath = '/assets/script/js/Boot.js' ;
 
-	const vExpress = require( 'express' )() ;
+	// const oDir = require( process.cwd() + vPath ) ;
 
-	// var pessoa = {
-	// 	 nome: 'Samuel' , 
-	// 	idade: '37'
-	// };
+	// import express from 'express' ;
 
-	// export pessoa ; 
-
-	// const vInclude = require( 'include./.js' )() ;
-
-
-
-
-
+	// const app = express() ;
