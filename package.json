@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/domsamuka/Testes-WebSocket#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "node": "^13.3.0",
     "nodemon": "^1.19.1",
     "socket.io": "^2.3.0"
